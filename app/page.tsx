@@ -36,7 +36,7 @@ export default function Page() {
             className="w-8 h-8 flex items-center justify-center text-white/50 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">
             <Github className="w-4 h-4" />
           </a>
-          <a href="https://linkedin.com/in/utkarsh2002" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/utkarshsingh2002/" target="_blank" rel="noopener noreferrer"
             className="w-8 h-8 flex items-center justify-center text-white/50 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all">
             <Linkedin className="w-4 h-4" />
           </a>
@@ -98,7 +98,7 @@ export default function Page() {
                 <a href="https://github.com/UTKI20" target="_blank" rel="noopener noreferrer" className="absolute top-[12%] left-[10%] pointer-events-auto text-[#EFD395] text-[14px] md:text-[18px] font-bold font-mono tracking-widest border border-[#EFD395]/40 bg-[#131313]/80 backdrop-blur-md px-6 py-3 rounded-full shadow-[0_0_20px_rgba(239,211,149,0.3)] hover:scale-110 hover:bg-[#EFD395] hover:text-[#131313] transition-all animate-pulse flex items-center gap-2">
                   GITHUB ↗
                 </a>
-                <a href="https://linkedin.com/in/utkarsh2002" target="_blank" rel="noopener noreferrer" className="absolute top-[50%] right-[2%] pointer-events-auto text-[#EFD395] text-[14px] md:text-[18px] font-bold font-mono tracking-widest border border-[#EFD395]/40 bg-[#131313]/80 backdrop-blur-md px-6 py-3 rounded-full shadow-[0_0_20px_rgba(239,211,149,0.3)] hover:scale-110 hover:bg-[#EFD395] hover:text-[#131313] transition-all animate-[pulse_4s_ease-in-out_infinite] flex items-center gap-2">
+                <a href="https://www.linkedin.com/in/utkarshsingh2002/" target="_blank" rel="noopener noreferrer" className="absolute top-[50%] right-[2%] pointer-events-auto text-[#EFD395] text-[14px] md:text-[18px] font-bold font-mono tracking-widest border border-[#EFD395]/40 bg-[#131313]/80 backdrop-blur-md px-6 py-3 rounded-full shadow-[0_0_20px_rgba(239,211,149,0.3)] hover:scale-110 hover:bg-[#EFD395] hover:text-[#131313] transition-all animate-[pulse_4s_ease-in-out_infinite] flex items-center gap-2">
                   LINKEDIN ↗
                 </a>
                 <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="absolute bottom-[15%] left-[8%] pointer-events-auto text-[#EFD395] text-[14px] md:text-[18px] font-bold font-mono tracking-widest border border-[#EFD395]/40 bg-[#131313]/80 backdrop-blur-md px-6 py-3 rounded-full shadow-[0_0_20px_rgba(239,211,149,0.3)] hover:scale-110 hover:bg-[#EFD395] hover:text-[#131313] transition-all animate-[pulse_5s_ease-in-out_infinite] flex items-center gap-2">
@@ -406,7 +406,7 @@ export default function Page() {
                 className="w-12 h-12 flex items-center justify-center rounded-full border border-white/20 text-white/60 hover:text-white hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:scale-110 transition-all duration-300">
                 <Github className="w-5 h-5" />
               </a>
-              <a href="https://linkedin.com/in/utkarsh2002" target="_blank" rel="noopener noreferrer"
+              <a href="https://www.linkedin.com/in/utkarshsingh2002/" target="_blank" rel="noopener noreferrer"
                 className="w-12 h-12 flex items-center justify-center rounded-full border border-white/20 text-white/60 hover:text-white hover:border-white/50 hover:shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:scale-110 transition-all duration-300">
                 <Linkedin className="w-5 h-5" />
               </a>
