@@ -172,10 +172,14 @@ export function VideoCard({ project, isHovered, onHoverChange }: VideoCardProps)
           </div>
 
           <div className="pt-3 border-t border-white/15 flex items-center justify-between">
-            <div className="flex items-center gap-1.5">
-              <div className="w-1.5 h-1.5 rounded-full bg-white/40 animate-pulse" />
-              <p className="text-white/40 font-mono text-[9px] tracking-widest uppercase">Live Project</p>
-            </div>
+            {project.deployment ? (
+              <div className="flex items-center gap-1.5">
+                <div className="w-1.5 h-1.5 rounded-full bg-white/40 animate-pulse" />
+                <p className="text-white/40 font-mono text-[9px] tracking-widest uppercase">Live Project</p>
+              </div>
+            ) : (
+              <div />
+            )}
             
             <div className="flex items-center gap-4">
               {project.link && (
