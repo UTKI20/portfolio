@@ -253,7 +253,7 @@ export default function Page() {
                   FINALIST
                 </span>
               </div>
-              <h3 className="text-white font-bold text-lg mb-1 tracking-tight">Decodex 2025</h3>
+              <h3 className="text-white font-bold text-lg mb-1 tracking-tight">DecodeX 2025</h3>
               <p className="text-rose-200/50 font-mono text-xs tracking-[0.2em] uppercase mb-4">Hackathon · 2025</p>
               <div className="flex items-baseline gap-1.5">
                 <span className="text-4xl font-bold text-white font-mono">Top</span>
