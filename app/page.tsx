@@ -11,7 +11,7 @@ export default function Page() {
   if (!isEntered) {
     return (
       <div className="min-h-screen bg-[#131313] flex items-center justify-center">
-        <button 
+        <button
           onClick={() => setIsEntered(true)}
           className="px-12 py-4 bg-transparent border border-[#EFD395]/40 text-[#EFD395] font-mono text-sm tracking-[0.3em] uppercase hover:bg-[#EFD395]/10 hover:border-[#EFD395] transition-all duration-500 rounded-full hover:shadow-[0_0_30px_rgba(239,211,149,0.2)] hover:scale-105"
         >
@@ -46,7 +46,7 @@ export default function Page() {
       {/* Hero Section */}
       <section className="relative pt-36 pb-20 px-8 min-h-screen flex items-center bg-[#131313] border-b border-white/5 overflow-hidden">
         <div className="max-w-[1400px] w-full mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 items-center relative z-10">
-          
+
           {/* Left Side: Content */}
           <div className="flex flex-col pr-8">
             {/* Eyebrow */}
@@ -82,7 +82,7 @@ export default function Page() {
 
           {/* Right Side: The Antigravity IDE Container */}
           <div className="relative h-[600px] w-full rounded-2xl overflow-hidden flex items-center justify-center group cursor-crosshair">
-            
+
             {/* LAYER 1: The Interactive Visual */}
             <div className="absolute inset-0 z-10 transition-transform duration-[800ms] ease-out group-hover:scale-[1.03] group-hover:rotate-1">
               <AntigravityCluster />
@@ -92,7 +92,7 @@ export default function Page() {
 
             {/* LAYER 2: Text Overlay (IDE labels and buttons) */}
             <div className="absolute inset-0 z-20 pointer-events-none p-10 flex flex-col">
-              
+
               {/* Suspended Floating Links */}
               <div className="absolute inset-0 overflow-hidden">
                 <a href="https://github.com/UTKI20" target="_blank" rel="noopener noreferrer" className="absolute top-[12%] left-[10%] pointer-events-auto text-[#EFD395] text-[14px] md:text-[18px] font-bold font-mono tracking-widest border border-[#EFD395]/40 bg-[#131313]/80 backdrop-blur-md px-6 py-3 rounded-full shadow-[0_0_20px_rgba(239,211,149,0.3)] hover:scale-110 hover:bg-[#EFD395] hover:text-[#131313] transition-all animate-pulse flex items-center gap-2">
@@ -105,7 +105,7 @@ export default function Page() {
                   RESUME ↓
                 </a>
               </div>
-              
+
               {/* Buttons at Bottom Right */}
               <div className="mt-auto self-end flex gap-4 pointer-events-auto">
                 <a href="#projects"
@@ -245,7 +245,7 @@ export default function Page() {
               <p className="text-white/60 text-base leading-relaxed mt-3">Infosys's national competitive coding tournament for engineering students.</p>
             </div>
 
-            {/* Decodex */}
+            {/* DecodeX */}
             <div className="group relative p-8 rounded-2xl border border-rose-500/30 bg-rose-500/[0.03] hover:border-rose-500/50 hover:bg-rose-500/[0.06] transition-all duration-300">
               <div className="flex items-start justify-between mb-5">
                 <Target className="w-6 h-6 text-rose-400" />
