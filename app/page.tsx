@@ -2,7 +2,7 @@
 
 import { WorksGallery } from "@/components/works-gallery"
 import { AntigravityCluster } from "@/components/antigravity-cluster"
-import { Github, Linkedin, Mail, Trophy, Users, Zap, Target, Award, Flag, Heart, ExternalLink, Cpu, Database, Code2, BrainCircuit } from "lucide-react"
+import { Github, Linkedin, Mail, Phone, Trophy, Users, Zap, Target, Award, Flag, Heart, ExternalLink, Cpu, Database, Code2, BrainCircuit } from "lucide-react"
 import { useState } from "react"
 
 export default function Page() {
@@ -62,14 +62,14 @@ export default function Page() {
             </h1>
 
             <p className="text-[#A4A4A4] text-lg max-w-xl leading-relaxed font-light mb-16">
-              I build AI systems that solve real-world problems, from bias analysis engines and mental health assistants to astronomical discovery tools.
+              I'm a Computer Science undergraduate (<span className="text-[#EFD395]">9.36 CGPA</span>) who enjoys building practical AI systems. My work ranges from <span className="text-[#EFD395]">Generative AI</span> and <span className="text-[#EFD395]">NLP</span> to <span className="text-[#EFD395]">Deep Learning</span> and predictive modeling, with projects in <span className="text-[#EFD395]">healthcare</span>, <span className="text-[#EFD395]">scientific discovery</span>, and <span className="text-[#EFD395]">information retrieval</span>.
             </p>
 
             {/* Stats bar */}
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-white/5">
               {[
                 { value: "4+", label: "AI PROJECTS BUILT" },
-                { value: "25", label: "CBT FRAMEWORKS" },
+                { value: "7+", label: "NATIONAL HACKATHONS" },
                 { value: "<100ms", label: "QUERY LATENCY" },
               ].map((stat) => (
                 <div key={stat.label}>
@@ -153,10 +153,10 @@ export default function Page() {
                 <div className="w-10 h-10 rounded-lg bg-purple-500/20 flex items-center justify-center">
                   <BrainCircuit className="w-5 h-5 text-purple-400" />
                 </div>
-                <h3 className="text-purple-300 font-mono text-sm tracking-[0.2em] uppercase">AI / ML</h3>
+                <h3 className="text-purple-300 font-mono text-sm tracking-[0.2em] uppercase">Libraries</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {["Deep Learning", "CNNs", "NLP", "LLMs", "RAG", "Computer Vision", "SHAP", "SMOTE", "Transformers"].map((skill) => (
+                {["TensorFlow", "PyTorch", "Scikit-learn", "Pandas", "NumPy", "OpenCV", "Hugging Face", "SHAP", "ChromaDB", "SMOTE"].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-purple-500/10 border border-purple-500/20 rounded-full text-purple-200 text-xs font-mono tracking-wider hover:bg-purple-500/20 hover:text-purple-100 transition-colors">
                     {skill}
                   </span>
@@ -173,7 +173,7 @@ export default function Page() {
                 <h3 className="text-blue-300 font-mono text-sm tracking-[0.2em] uppercase">Languages & Frameworks</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {["Python", "TypeScript", "JavaScript", "SQL", "TensorFlow", "React", "Next.js", "FastAPI", "Hugging Face"].map((skill) => (
+                {["Python", "SQL", "JavaScript", "TypeScript", "React", "Next.js", "Node.js", "FastAPI"].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-blue-500/10 border border-blue-500/20 rounded-full text-blue-200 text-xs font-mono tracking-wider hover:bg-blue-500/20 hover:text-blue-100 transition-colors">
                     {skill}
                   </span>
@@ -190,7 +190,7 @@ export default function Page() {
                 <h3 className="text-emerald-300 font-mono text-sm tracking-[0.2em] uppercase">Tools & Databases</h3>
               </div>
               <div className="flex flex-wrap gap-2">
-                {["ChromaDB", "PostgreSQL", "Supabase", "Prisma", "Git", "Streamlit", "Node.js", "Langchain"].map((skill) => (
+                {["PostgreSQL", "Supabase", "Prisma ORM", "Git", "GitHub", "VS Code", "Streamlit Cloud"].map((skill) => (
                   <span key={skill} className="px-3 py-1.5 bg-emerald-500/10 border border-emerald-500/20 rounded-full text-emerald-200 text-xs font-mono tracking-wider hover:bg-emerald-500/20 hover:text-emerald-100 transition-colors">
                     {skill}
                   </span>
@@ -223,7 +223,7 @@ export default function Page() {
               <p className="text-cyan-200/50 font-mono text-xs tracking-[0.2em] uppercase mb-4">Hackathon · 2025</p>
               <div className="flex items-baseline gap-1.5">
                 <span className="text-4xl font-bold text-white font-mono">30</span>
-                <span className="text-white/50 text-base font-mono">/ 2,500+ teams</span>
+                <span className="text-white/50 text-base font-mono">/ 12000+ teams</span>
               </div>
               <p className="text-white/60 text-base leading-relaxed mt-3">National-level finalist among thousands of competing engineering teams.</p>
             </div>
@@ -256,10 +256,10 @@ export default function Page() {
               <h3 className="text-white font-bold text-lg mb-1 tracking-tight">DecodeX 2025</h3>
               <p className="text-rose-200/50 font-mono text-xs tracking-[0.2em] uppercase mb-4">Hackathon · 2025</p>
               <div className="flex items-baseline gap-1.5">
-                <span className="text-4xl font-bold text-white font-mono">Top</span>
-                <span className="text-white/50 text-base font-mono">Finalist</span>
+                <span className="text-4xl font-bold text-white font-mono">Top 25</span>
+                <span className="text-white/50 text-base font-mono">/1000+ teams</span>
               </div>
-              <p className="text-white/60 text-base leading-relaxed mt-3">Secured a top position among competitive teams at the technical hackathon.</p>
+              <p className="text-white/60 text-base leading-relaxed mt-3">Secured the top 25 position among competitive teams at the technical hackathon.</p>
             </div>
           </div>
         </div>
@@ -288,7 +288,7 @@ export default function Page() {
                   </span>
                   <p className="text-indigo-200/50 text-xs mb-3 font-mono">Bharatiyam 2026</p>
                   <p className="text-white/60 text-base leading-relaxed">
-                    {"Spearheaded 'imPROMPTu', a flagship competitive event driving student engagement."}
+                    {"Managed 200+ participant event 'imPROMPTu' at Bharatiyam 2026, an annual flagship event, and managed key stakeholders for the event."}
                   </p>
                 </div>
               </div>
@@ -307,7 +307,7 @@ export default function Page() {
                   </span>
                   <p className="text-yellow-200/50 text-xs mb-3 font-mono">GDSC BVCOE · 2024–2025</p>
                   <p className="text-white/60 text-base leading-relaxed">
-                    Driving technical workshops and community engagement focused on AI/ML technologies.
+                    Drove technical workshops and community engagement focused on AI/ML technologies.
                   </p>
                 </div>
               </div>
@@ -324,9 +324,9 @@ export default function Page() {
                   <span className="inline-block px-2.5 py-1 bg-pink-500/20 border border-pink-500/30 text-pink-200 rounded text-[10px] font-mono tracking-wider mb-2">
                     Active Volunteer
                   </span>
-                  <p className="text-pink-200/50 text-xs mb-3 font-mono">NSS BVCOE</p>
+                  <p className="text-pink-200/50 text-xs mb-3 font-mono">NSS BVCOE · 2024–2026</p>
                   <p className="text-white/60 text-base leading-relaxed">
-                    Contributing to community service initiatives and social outreach programs.
+                    Contributed to community service initiatives and social outreach programs.
                   </p>
                 </div>
               </div>
@@ -399,6 +399,13 @@ export default function Page() {
                   <Mail className="w-4 h-4" />
                 </div>
                 utkarsh20052002@gmail.com
+              </a>
+              <a href="tel:+917355207641"
+                className="flex items-center gap-4 text-white/60 hover:text-white hover:drop-shadow-[0_0_8px_rgba(255,255,255,0.8)] transition-all font-mono text-base group">
+                <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-white/10 group-hover:shadow-[0_0_15px_rgba(255,255,255,0.3)] transition-all">
+                  <Phone className="w-4 h-4" />
+                </div>
+                +91 7355207641
               </a>
             </div>
             <div className="flex items-center gap-4 sm:ml-auto">
